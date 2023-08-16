@@ -54,9 +54,9 @@ k8s:
 project:
   namespace: test-setup
 
-serviceAccount:
-  annotations: {}
-  create: false
-  name: default
-  namespace: test-setup
+#serviceAccount:
+#  annotations: {}
+#  create: false
+#  name: default
+#  namespace: test-setup
 
