@@ -41,22 +41,21 @@ webui:
 
 dnn: internet  
 
+# Change the nodeport if required
 amf:
   mcc: 208
   mnc: 93
   tac: 7
+  nodeport: 31412
 
 # Primary/Native kubernetes interface
 k8s:
  interface: eth0
  advertise: 10.253.17.251
 
+# Namespace where helm chart will be deployed
 project:
   namespace: test-setup
 
-#serviceAccount:
-#  annotations: {}
-#  create: false
-#  name: default
-#  namespace: test-setup
+
 
